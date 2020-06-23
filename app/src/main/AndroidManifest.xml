@@ -9,6 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity
+            android:name=".mending.AlphaActivity"
+            android:label="AlphaActivity" />
+        <activity
+            android:name=".mending.RotateActivity"
+            android:label="RotateActivity" />
+        <activity
+            android:name=".mending.ScaleActivity"
+            android:label="ScaleActivity" />
+        <activity
+            android:name=".mending.TranslateActivity"
+            android:label="TranslateActivity" />
+        <activity
+            android:name=".activity.AttributeAnimationActivity"
+            android:label="AttributeAnimationActivity" />
+        <activity
+            android:name=".activity.FrameAnimationActivity"
+            android:label="FrameAnimationActivity" />
+        <activity
+            android:name=".activity.MendingAnimationActivity"
+            android:label="MendingAnimationActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
