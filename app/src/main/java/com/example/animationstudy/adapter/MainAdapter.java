@@ -11,9 +11,6 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 import com.example.animationstudy.R;
-import com.example.animationstudy.activity.AttributeAnimationActivity;
-import com.example.animationstudy.activity.FrameAnimationActivity;
-import com.example.animationstudy.activity.MendingAnimationActivity;
 
 import java.util.ArrayList;
 import java.util.List;
