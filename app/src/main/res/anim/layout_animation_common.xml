@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android"
+    android:animation="@anim/list_view_animation"
+    android:animationOrder="reverse"
+    android:delay="0.1">
+
+    <!--android:delay     = 动画时间延时-->
+    <!--android:animationOrder   - random 随机  normal 正常  reverse 反向 -->
+    <!--android:animation    = 指定入场动画 -->
+
+</layoutAnimation>

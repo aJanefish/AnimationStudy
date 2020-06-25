@@ -6,8 +6,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 
+import com.example.animationstudy.activity.ActivityAnimationActivity;
 import com.example.animationstudy.activity.AttributeAnimationActivity;
 import com.example.animationstudy.activity.FrameAnimationActivity;
+import com.example.animationstudy.activity.ListViewAnimationActivity;
 import com.example.animationstudy.activity.MendingAnimationActivity;
 import com.example.animationstudy.adapter.MainAdapter;
 
@@ -39,6 +41,8 @@ public class MainActivity extends BaseActivity {
         list.add(new MainAdapter.Bean("补间动画", MendingAnimationActivity.class));
         list.add(new MainAdapter.Bean("帧动画", FrameAnimationActivity.class));
         list.add(new MainAdapter.Bean("属性动画", AttributeAnimationActivity.class));
+        list.add(new MainAdapter.Bean("ListView子元素入场动画", ListViewAnimationActivity.class));
+        list.add(new MainAdapter.Bean("Activity的切换效果", ActivityAnimationActivity.class));
         return list;
     }
 }

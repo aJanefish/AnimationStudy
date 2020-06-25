@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mending.SetActivity"></activity>
+        <activity android:name=".activity.ActivityAnimationActivity"></activity>
+        <activity android:name=".activity.ListViewAnimationActivity" />
+        <activity android:name=".mending.SetActivity" />
         <activity
             android:name=".mending.AlphaActivity"
             android:label="AlphaActivity" />
