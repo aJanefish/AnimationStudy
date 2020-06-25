@@ -1,10 +1,8 @@
 package com.example.animationstudy.activity;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import android.os.Bundle;
 
 import com.example.animationstudy.BaseActivity;
 import com.example.animationstudy.R;
@@ -12,6 +10,7 @@ import com.example.animationstudy.adapter.MainAdapter;
 import com.example.animationstudy.mending.AlphaActivity;
 import com.example.animationstudy.mending.RotateActivity;
 import com.example.animationstudy.mending.ScaleActivity;
+import com.example.animationstudy.mending.SetActivity;
 import com.example.animationstudy.mending.TranslateActivity;
 
 import java.util.ArrayList;
@@ -48,6 +47,7 @@ public class MendingAnimationActivity extends BaseActivity {
         list.add(new MainAdapter.Bean("缩放动画", ScaleActivity.class));
         list.add(new MainAdapter.Bean("旋转动画", RotateActivity.class));
         list.add(new MainAdapter.Bean("alpha动画", AlphaActivity.class));
+        list.add(new MainAdapter.Bean("Set动画", SetActivity.class));
         return list;
     }
 }

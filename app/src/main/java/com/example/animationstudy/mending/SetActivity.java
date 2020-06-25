@@ -1,6 +1,5 @@
 package com.example.animationstudy.mending;
 
-
 import android.annotation.SuppressLint;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -16,15 +15,13 @@ import com.example.animationstudy.adapter.AnimationTestAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * View动画之 alpha动画
- */
-public class AlphaActivity extends BaseActivity {
+public class SetActivity extends BaseActivity {
+
     private ImageView imageView;
 
     @Override
     protected int getLayoutId() {
-        return R.layout.activity_alpha;
+        return R.layout.activity_set;
     }
 
 
@@ -41,7 +38,7 @@ public class AlphaActivity extends BaseActivity {
             @Override
             public void callBack(int type) {
 
-                Animation animation = AnimationUtils.loadAnimation(AlphaActivity.this, type);
+                Animation animation = AnimationUtils.loadAnimation(SetActivity.this, type);
                 animation.setDuration(1000);
                 imageView.startAnimation(animation);
 
@@ -52,9 +49,8 @@ public class AlphaActivity extends BaseActivity {
     private List<AnimationTestAdapter.Bean> initData() {
         List<AnimationTestAdapter.Bean> list = new ArrayList<AnimationTestAdapter.Bean>();
 
-        list.add(new AnimationTestAdapter.Bean("显示", R.anim.alpha_common_show));
-        list.add(new AnimationTestAdapter.Bean("隐藏", R.anim.alpha_common_hide));
-
+        list.add(new AnimationTestAdapter.Bean("组合动画1", R.anim.set_common));
+        list.add(new AnimationTestAdapter.Bean("组合动画2", R.anim.set_common2));
 
 
         return list;
