@@ -61,6 +61,9 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainHolder> {
 
         @Override
         public void onClick(View v) {
+            if (mBean.aClass == null) {
+                return;
+            }
             itemView.getContext().startActivity(new Intent(itemView.getContext(), mBean.aClass));
         }
     }

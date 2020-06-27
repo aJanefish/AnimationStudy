@@ -3,10 +3,8 @@ package com.example.animationstudy.attributeanimation;
 
 import android.animation.Animator;
 import android.animation.TimeAnimator;
-import android.animation.TypeEvaluator;
 import android.animation.ValueAnimator;
 import android.annotation.SuppressLint;
-import android.graphics.Color;
 import android.os.Build;
 import android.util.Log;
 import android.view.View;
