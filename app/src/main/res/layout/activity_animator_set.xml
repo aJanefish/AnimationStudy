@@ -6,4 +6,152 @@
     android:layout_height="match_parent"
     tools:context=".attributeanimation.AnimatorSetActivity">
 
+    <TextView
+        android:id="@+id/start_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/end_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/start_des" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="resetView"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/open1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="open1"
+        android:text="@string/open1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/open2"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/open2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="open2"
+        android:text="@string/open2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/open3"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/open3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="open3"
+        android:text="@string/open3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/close1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="close1"
+        android:text="@string/close1"
+        app:layout_constraintBottom_toTopOf="@id/close2"
+        app:layout_constraintLeft_toRightOf="@id/open1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/close2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="close2"
+        android:text="@string/close2"
+        app:layout_constraintBottom_toTopOf="@id/close3"
+        app:layout_constraintLeft_toRightOf="@id/open1"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/close3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="close3"
+        android:text="@string/close3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/open1"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sentiment_dissatisfied_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sentiment_neutral_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sentiment_satisfied_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sentiment_very_dissatisfied_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_sentiment_very_satisfied_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/image_view_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_settings_input_svideo_black_24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
