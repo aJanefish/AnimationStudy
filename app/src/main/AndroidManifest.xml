@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.ActivityAnimationActivity"></activity>
+        <activity android:name=".attributeanimation.TimeAnimatorActivity"></activity>
+        <activity android:name=".attributeanimation.AnimatorSetActivity" />
+        <activity android:name=".attributeanimation.ValueAnimatorActivity" />
+        <activity android:name=".attributeanimation.ObjectAnimatorActivity" />
+        <activity android:name=".activity.ActivityAnimationActivity" />
         <activity android:name=".activity.ListViewAnimationActivity" />
         <activity android:name=".mending.SetActivity" />
         <activity

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">AnimationStudy</string>
     <string name="refresh">刷新</string>
+    <string name="reset">重置</string>
 </resources>
